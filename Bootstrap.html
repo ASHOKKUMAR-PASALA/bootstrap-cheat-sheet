@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Cheat Sheet</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+   
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse" style="margin-bottom: 0;">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Bootstrap Cheat Sheet</a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            
+            
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+      <div class="jumbotron" style="text-align: center;">
+        <h1>Welcome to my Website</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nobis vitae voluptatum, quos laboriosam ducimus. Neque adi</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Read more</a></p>
+      </div>
+
+
+    <div class="container">
+        <h1 class="page-header">Hello World ! <small>something text</small></h1>
+        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus magni quia officia sed accusantium. Perferendis unde, amet, libero nesciunt doloremque modi tempore  ullam corrupti iste nostrum assumenda laudantium. Illum, magni!</p>
+        <p> <mark>it amet consectetur adipisicing  </mark> ipsum mar dolor sit amet co <del> my ambition was a good web designer</del> adipisicing elit. Consequuntur  earum vero maxime non placeat eveniet officia esse impedit minus, laboriosam, blanditiis optio fuga? Doloremque et error explicabo quae alias eos?</p>
+
+        <hr>
+        <h5 style="text-align: center;">............Text allingment...........</h5>
+        <p class="text-left"> left alingment</p>
+        <p class="text-right"> right alingment</p>
+        <p class="text-center"> center alingment</p>
+        <p class="text-nowrap"> text-nowrap alingment</p>
+        <p class="text-justify"> text-justify alingment</p>
+         
+        <div class="pull-right">floted right</div>
+        <div class="pull-left">floted pull-left</div>
+
+        <div class="clearfix"></div>
+
+        <hr>
+        <h5 style="text-align: center;">............blockquote reverse...........</h5>
+        <blockquote class="blockquote-reverse">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque repellendus nemo, molestias libero vel eligendi ex, exercitationem voluptate velit architecto, similique sed? Ipsa dignissimos quae accusamus repudiandae voluptatibus sunt saepe.</p>
+             <footer>qout by <cite>joh dear</cite></footer>
+        </blockquote>
+        <hr>
+        <ul class="list-unstyled">
+            <li>item one</li>
+            <li>item two</li>
+            <li>ite three</li>
+            <li>item four</li>
+        </ul>
+         
+        <ul class="list-inline">
+            <li>item one</li>
+            <li>item two</li>
+            <li>ite three</li>
+            <li>item four</li>
+        </ul>
+
+        <code>&lt;h1:&gt; heading text &lt;/h2&gt;</code>
+        <br>
+        change password <kbd>code change</kbd>
+        <br>
+        rest all things <kbd><kbd>code</kbd> + <kbd>,</kbd></kbd>
+        <hr>
+        <br>
+        <h5 style="text-align: center;">............contextual colors...........</h5>
+        <p class="text-primary">hello world</p>
+        <p class="text-success">hello world</p>
+        <p class="text-warning">hello world</p>
+        <p class="text-danger">hello world</p>
+        <p class="text-info">hello world</p>
+        <p class="text-muted">hello world</p>
+         
+        <br>
+        <hr>
+        <h5 style="text-align: center;">............contextual background colors...........</h5>
+        <p class="bg-primary">hello world</p>
+        <p class="bg-success">hello world</p>
+        <p class="bg-warning">hello world</p>
+        <p class="bg-muted">hello world</p>
+        <p class="bg-danger">hello world</p>
+        <p class="bg-info">hello world</p>
+        <hr>
+
+       <div class="cointainer">
+
+           <h5 style="text-align: center;">............buttons...........</h5>
+
+           <button class="btn btn-default">button</button>
+           <a href="#" class="btn btn-default" role="button">link</a>
+           <input type="submit" class="btn btn-default" name="" id="">
+
+           <hr>
+           <br>
+           
+           <h5 style="text-align: center;">............contextual buttons...........</h5>
+           <button class="btn btn-primary">primary</button>
+           <button class="btn btn-success">success</button>
+           <button class="btn btn-warning">Warning</button>
+           <button class="btn btn-danger">Danger</button>
+           <button class="btn btn-info">info</button>
+           <button class="btn btn-muted">muted</button>
+           <button class="btn btn-linl">link</button>
+           
+
+           <hr>
+           <br>
+
+           <h5 style="text-align: center;">............contextual buttons sizes...........</h5>
+
+           <button class="btn btn-primary btn-lg">primary</button>
+           <button class="btn btn-success btn-default">success</button>
+           <button class="btn btn-warning btn-sm">Warning</button>
+           <button class="btn btn-default btn-xs" disabled="disabled">Danger</button>
+
+           <br>
+           <hr>
+           <h5 style="text-align: center;">............forms...........</h5>
+           <div class="cointainer">
+               <form>
+                   <div class="form-group">
+                       <label for="text">Name</label>
+                       <input type="text"  class="form-control" placeholder="Enter Name">
+                   </div>
+
+                   <div class="form-group">
+                    <label for="text">Email</label>
+                    <input type="email"  class="form-control" placeholder="Enter Email">
+                </div>
+
+                <div class="form-group">
+                    <label for="text">Message</label>
+                     <textarea name="message" class="form-control" placeholder="message" id="" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Gender</label>
+                    <select name="text" id="" class="form-control">
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                        <option value="others">other</option>
+                    </select>
+                     <br>
+                    <div class="form-group">
+                        <label for="">
+                            <input type="file">
+                        </label>
+                        <p>choose png & jpg files</p>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <input type="checkbox"> check me out
+                </div>
+
+                <button type="submit" class="btn btn-default">submit</button>
+
+                <br>
+                <hr>
+                <br>
+
+                <h5 style="text-align: center;">............ inline forms...........</h5>
+
+              <div class="container">    
+                <div class="form-inline">
+                    <div class="form-group">
+                      <label for="">Email</label>
+                      <input type="email"  class="form-control" placeholder="Enter Email">
+                    </div>
+
+                    <div class="form-group">
+                       <label for="passwordt">password</label>
+                       <input type="password"  class="form-control" placeholder="Enter password">
+                    </div>
+                    
+                    <input type="checkbox">remember me
+           
+                   <button class="btn btn-default" type="submit">login</button>
+                </div> 
+            </div>
+         </form>
+               <br>
+               <hr>
+
+
+               <h5 style="text-align: center;">............table...........</h5>
+
+               <div class="container">
+                   <table class="table table-striped table-hover table-bordered table-condensed">
+                       <tr class="active">
+                           <th>Name</th>
+                           <th>Collage</th>
+                           <th>District</th>
+                       </tr>
+                       <tr>
+                           <td>Mahesh</td>
+                           <td>NSRIT
+                           <td>VIZAG</td>
+                           </td>
+                       </tr>
+                       <tr class="danger">
+                        <td>Ashok</td>
+                        <td>NSRIT
+                        <td>VIZAG</td>
+                        </td>
+                    </tr>
+                    <tr class="success">
+                        <td>Kamesh</td>
+                        <td>NSRIT
+                        <td>VIZAG</td>
+                        </td>
+                    </tr>
+                   </table>
+               </div>
+               
+               <br>
+               <hr>
+           </div>
+          </div>
+        </div>
+
+
+        <h5 style="text-align: center;">............Group items...........</h5>
+        <div class="container">
+            <ul class="list-group">
+                <li class="list-group-item active">item one</li>
+                <li class="list-group-item ">item two</li>
+                <li class="list-group-item list-group-item-success">item three</li>
+            </ul>
+            <ul class="list-group">
+               <a href="#" class="list-group-item active">Item one</a>
+               <a href="#" class="list-group-item list-group-item">Item two</a>
+               <a href="#" class="list-group-item list-group-item-info">Item three</a>
+
+            </ul>
+        </div>
+
+        <h5 style="text-align: center;">............Panel...........</h5>
+
+        <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Panel title</h3>
+                </div>
+                <div class="panel-body">
+                  Panel content 
+                </div>
+               <div class="panel-footer">panel footer</div> 
+              </div>    
+
+              <hr>
+            
+              <h5 style="text-align: center;">............Well...........</h5>
+
+              <div class="well">Hello World</div>
+              <div class="well well-lg">Hello World</div>
+              <div class="well well-sm">Hello World</div>
+
+              <hr>
+              <br>
+
+              <h5 style="text-align: center;">............alerts...........</h5>
+              <div class="alert alert-success" role="alert">a success alert</div>
+              <div class="alert alert-warning" role="alert">a Warning alert</div>
+              <div class="alert alert-danger" role="alert">a Danger alert</div>
+
+              <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-success active" style="width: 80%;">80%</div>
+              </div>
+
+              <hr>
+              <br>
+
+              <div class="container">
+                 <span class="label label-default">default</span>
+                 <h1>Hello <span class="label label-primary">World</span></h1>
+                 <span class="label label-success">success</span>
+                 <span class="label label-info">information</span>
+                 <span class="label label-warning">warning</span>
+                 <span class="label label-danger">Danger</span>
+
+                 
+
+                 <a href="#">inbox<span class="badge">20</span></a>
+                 <button class="btn btn-success">meaasage<span class="badge">5</span></button>
+             </div> 
+        </div>
+
+        <br>
+
+
+        <div class="container">
+            <img src="..." alt="..." class="img-rounded">
+            <img src="..." alt="..." class="img-circle">
+            <img src="..." alt="..." class="img-thumbnail">
+
+        </div>
+
+        <br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-8 col-xs-8">
+                   <p>Lorem ipsum dolor sitit. Voluptatibus aspernatur odio et saepe! Assumenda eos, nisi non deserunt nulla temporibus quod quis vitae libero iusto repudiandae culpa, dolorem voluptatum impedit.</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-md-4">
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quidem omnis amet nisi beatae cupiditate delectus adipisci dolorum atque, nemo sunt, facilis blanditiis, architecto quaerat ducimus alias! Recusandae, iure velit?</p>
+                </div>
+            </div>
+
+            <br>
+
+            <h5 style="text-align: center;">............Grid...........</h5>
+            <div class="row">
+                <div class="col-md-3">
+                   <p>Lorem ipsum dolor sitit. Voluptatibus aspernatur odio et saepe! Assumenda eos, nisi non deserunt nulla temporibus quod quis vitae libero iusto repudiandae culpa, dolorem voluptatum impedit.</p>
+                </div>
+                <div class="col-md-3">
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quidem omnis amet nisi beatae cupiditate delectus adipisci dolorum atque, nemo sunt, facilis blanditiis, architecto quaerat ducimus alias! Recusandae, iure velit?</p>
+                </div>
+                <div class="col-md-3">
+                    <p>Lorem ipsum dolor sitit. Voluptatibus aspernatur odio et saepe! Assumenda eos, nisi non deserunt nulla temporibus quod quis vitae libero iusto repudiandae culpa, dolorem voluptatum impedit.</p>
+                 </div>
+                 <div class="col-md-3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quidem omnis amet nisi beatae cupiditate delectus adipisci dolorum atque, nemo sunt, facilis blanditiis, architecto quaerat ducimus alias! Recusandae, iure velit?</p>
+                 </div>
+                 
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-md-6">
+                   <p>Lorem ipsum dolor sitit. Voluptatibus aspernatur odio et saepe! Assumenda eos, nisi non deserunt nulla temporibus quod quis vitae libero iusto repudiandae culpa, dolorem voluptatum impedit.</p>
+                </div>
+                <div class="col-md-6">
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quidem omnis amet nisi beatae cupiditate delectus adipisci dolorum atque, nemo sunt, facilis blanditiis, architecto quaerat ducimus alias! Recusandae, iure velit?</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-1">
+                    <h2>Box</h2>
+                </div>
+                <div class="col-md-1">
+                    <h2>Box</h2>
+                </div>
+                <div class="col-md-1">
+                    <h2>Box</h2>
+                </div>
+
+                <div class="col-md-1">
+                    <h2>Box</h2>
+                </div>
+                <div class="col-md-1">
+                    <h2>Box</h2>
+                </div>
+                <div class="col-md-1">
+                    <h2>Box</h2>
+                </div>
+                <div class="col-md-1">
+                    <h2>Box</h2>
+                </div>
+                <div class="col-md-1">
+                    <h2>Box</h2>
+                </div>
+                <div class="col-md-1">
+                    <h2>Box</h2>
+                </div> <div class="col-md-1">
+                    <h2>Box</h2>
+                </div> <div class="col-md-1">
+                    <h2>Box</h2>
+                </div> <div class="col-md-1">
+                    <h2>Box</h2>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+    <div style="margin-bottom:500px;"></div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
